@@ -35,7 +35,7 @@ module.exports = (robot) ->
       setTimeout(run , 1000*time)
   robot.respond /止めて/, (res) ->
     if time > 1 
-      res.send "分かったのれす"
+      res.send "分かったのれす!"
       time =0
     else
       res.send "なんのことれすか?"
