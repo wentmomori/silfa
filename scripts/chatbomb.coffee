@@ -35,7 +35,5 @@ module.exports = (robot) ->
       stopflg = 1
       res.send "分かったのれす"
       time=3600
-      stopflg=0
-      startflg=0
     else
       res.send "なんのことれすか?"
