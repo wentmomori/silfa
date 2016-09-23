@@ -20,7 +20,7 @@
 module.exports = (robot) ->
   time=0
   robot.respond /(.*)に進捗報告させて/i, (res) ->
-    time=10
+    time=3600
     bye = false
     res.send "#{res.match[1]} 。進捗報告するのれす!"
     run = () ->
